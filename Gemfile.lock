@@ -1,7 +1,8 @@
 GEM
   remote: http://rubygems.org/
   specs:
-    puma (3.6.0)
+    json (2.1.0)
+    puma (3.9.1)
     rack (1.6.4)
     rack-protection (1.5.3)
       rack
@@ -15,6 +16,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  json
   puma
   sinatra
 
